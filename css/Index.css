@@ -1,0 +1,18 @@
+
+.carousel-inner {
+    height: 90vh;  
+}
+.navbar {
+    background-color: blue;
+    color: #ffffff;
+}
+.navbar-nav .nav-link {
+ color: #ffffff;
+}
+ {
+    color: #ffffff;
+}
+*{
+    background-color: blue;
+    color: #ffffff;
+}
