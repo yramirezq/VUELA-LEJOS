@@ -1,18 +1,29 @@
+/* Barra de navegacion */
 
-.carousel-inner {
-    height: 90vh;  
-}
 .navbar {
-    background-color: blue;
-    color: #ffffff;
-}
-.navbar-nav .nav-link {
- color: #ffffff;
-}
- {
-    color: #ffffff;
-}
-*{
-    background-color: blue;
-    color: #ffffff;
-}
+    padding: 2rem;
+    background-color: #ffffff; /*color de fondo*/
+  }
+  
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;  
+  }
+/* Estilos generales */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* Adaptable (Responsivo) */
+
+  /*oculta el logo en disposiivo movil*/
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
