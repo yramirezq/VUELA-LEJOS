@@ -1,13 +1,22 @@
 /* Barra de navegacion */
+body{
+  background-color: #ffffff;
+}
+#footer{
+  background-color: #1b0088;
+  color:#ffffff;
+}
 
 .navbar {
     padding: 2rem;
-    background-color: #ffffff; /*color de fondo*/
+    background-color: #1b0088; /*color de fondo*/
+    color: #ffffff;
   }
   
   .navbar-collapse {
     align-items: center;
     justify-content: space-between;  
+    color: #ffffff;
   }
 /* Estilos generales */
 
@@ -17,7 +26,10 @@ section {
     align-items: center;
     justify-content: center;
   }
-
+  {
+  padding: 2rem;
+  background-color: #1b0088; /*color de fondo*/
+}
 
   /* Adaptable (Responsivo) */
 
